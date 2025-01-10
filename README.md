@@ -50,7 +50,6 @@ To set up the project locally, follow these steps:
 
     ```bash
     cd toDo List
-    cd src
 
 3. **Open index.html in a Web Browser:**
 
