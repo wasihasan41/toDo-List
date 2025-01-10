@@ -1,0 +1,72 @@
+.ToDo_List {
+    background-color: white;
+    height: 100vh;
+    margin: -15px -5px auto -5px;
+}
+
+.name {
+    text-align: center;
+    padding-top: 10px;
+    font-size: x-large;
+    color: rgb(4, 117, 161);
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(4, 117, 161);
+    background-color: rgb(190, 177, 177);
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+button {
+    height: 36px;
+    background-color: rgb(4, 117, 161);
+    border: none;
+    border-radius: 30px;
+    padding: 0 20px 0 20px;
+    color: white;
+    cursor: grab;
+}
+
+
+
+.content {
+    color: rgb(4, 117, 161);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.remBtn {
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 117, 161);
+    color: white;
+    cursor: not-allowed;
+}
+
+
